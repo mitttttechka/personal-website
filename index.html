@@ -6,16 +6,73 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Header Section -->
   <header>
-    <h1>Hello! I'm [Your Name]</h1>
+    <div class="header-content">
+      <!-- Profile Photo -->
+      <img src="images/profile.jpg" alt="Profile Photo" id="profile-pic">
+
+      <!-- Name and Flags -->
+      <div>
+        <h1 id="my-name">
+          [Your Name]
+          <img src="images/Flag_Of_Russia.png" alt="Flag 1" class="flag">
+          <img src="images/Flag_Of_Austria.png" alt="Flag 2" class="flag">
+        </h1>
+      </div>
+    </div>
   </header>
 
+  <!-- About Section -->
   <main>
     <section id="about">
       <h2>About Me</h2>
-      <p>Brief introduction about who you are, what you do, or any interesting details.</p>
+      <p>Introduce yourself briefly here.</p>
     </section>
 
+    <!-- Education Timeline -->
+    <section id="education">
+      <h2>Education Timeline</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2018 - 2022</div>
+          <div class="timeline-content">
+            <h3>Your University Name</h3>
+            <p>Degree details, highlights, etc.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2023 - Present</div>
+          <div class="timeline-content">
+            <h3>Another University / Course</h3>
+            <p>Any additional educational pursuits.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Timeline -->
+    <section id="work">
+      <h2>Work Experience Timeline</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2021 - 2022</div>
+          <div class="timeline-content">
+            <h3>Your Company 1</h3>
+            <p>Position, responsibilities, etc.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2022 - Present</div>
+          <div class="timeline-content">
+            <h3>Your Company 2</h3>
+            <p>Position, responsibilities, etc.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
     <section id="projects">
       <h2>Projects</h2>
       <ul>
@@ -24,12 +81,46 @@
       </ul>
     </section>
 
+    <!-- Skills Carousel -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="carousel-container">
+        <button class="carousel-btn" id="prev-btn">&#10094;</button>
+        
+        <div class="carousel-track-container">
+          <div class="carousel-track">
+            <!-- Add as many slides as needed -->
+            <div class="carousel-slide">
+              <img src="images/python.png" alt="Python">
+            </div>
+            <div class="carousel-slide">
+              <img src="images/sql.png" alt="SQL">
+            </div>
+            <div class="carousel-slide">
+              <img src="images/html.png" alt="HTML">
+            </div>
+            <div class="carousel-slide">
+              <img src="images/css.png" alt="CSS">
+            </div>
+            <div class="carousel-slide">
+              <img src="images/javascript.png" alt="JavaScript">
+            </div>
+            <!-- etc. -->
+          </div>
+        </div>
+
+        <button class="carousel-btn" id="next-btn">&#10095;</button>
+      </div>
+    </section>
+
+    <!-- Contact -->
     <section id="contact">
       <h2>Contact</h2>
       <button id="contact-btn">Contact Me</button>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 [Your Name]</p>
   </footer>
