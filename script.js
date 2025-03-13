@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Contact Button
     const contactBtn = document.getElementById('contact-btn');
     contactBtn.addEventListener('click', () => {
-      alert("Thanks for your interest! You can reach me at: [your_email@example.com]");
+      alert("Thanks for your interest! You can reach me at: mit.dkharin@gmail.com");
     });
   
     // Carousel
